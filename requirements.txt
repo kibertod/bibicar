@@ -1,0 +1,7 @@
+ django
+ django-cors-headers
+ django-admin-tools
+ pyjwt
+ pillow
+ vk_api
+ websockets
