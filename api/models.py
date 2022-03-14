@@ -165,7 +165,7 @@ class Settings(models.Model):
 
 
 class Deal(models.Model):
-    client = models.ManyToManyField(Profile)
+    client = models.ManyToManyField(Profile, related_name="client")
     owner = models.ManyToManyField(Profile)
     car = models.ManyToManyField(Car)
     amount = models.IntegerField()
